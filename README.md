@@ -1,2 +1,3 @@
 # gabrielmoisesa.com
-My portfolio website
+
+This is my developer portfolio website, which is currently under development. 🚧
