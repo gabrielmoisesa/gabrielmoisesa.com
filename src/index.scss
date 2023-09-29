@@ -1,12 +1,15 @@
 @import 'node_modules/modern-normalize/modern-normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 :root {
   --background-color: #090416;
   --purple: #6D37FF;
   --white: #F5F5F6;
 
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
   background-color: var(--background-color);
   color: var(--white);
-  font-family: 'Montserrat', sans-serif;
 }
