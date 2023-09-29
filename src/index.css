@@ -1,6 +1,10 @@
 @import 'node_modules/modern-normalize/modern-normalize.css';
 
 :root {
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  --background-color: #090416;
+  --purple: #6D37FF;
+  --white: #F5F5F6;
+
+  background-color: var(--background-color);
+  color: var(--white);
 }
