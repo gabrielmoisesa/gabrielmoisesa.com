@@ -1,12 +1,12 @@
 .hero {
   margin: 0 8rem;
 
-  > p {
+   > p, p:nth-child(1) {
     font-size: 1.25rem;
     font-weight: 500;
   }
 
-  div {
+  .intro-phrase-container {
     margin: 9rem 0;
 
     h1, p {
