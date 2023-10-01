@@ -19,6 +19,8 @@ header {
   
   .bm-burger-bars {
     background: var(--white);
+    height: 11% !important;
+    border-radius: 2px;
   }
   
   .bm-burger-bars-hover {
@@ -46,7 +48,7 @@ header {
   }
   
   .bm-morph-shape {
-    fill: #373a47;
+    fill: gray;
   }
   
   .bm-item-list {
