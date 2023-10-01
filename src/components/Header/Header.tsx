@@ -1,4 +1,5 @@
 import { slide as Menu } from 'react-burger-menu'
+import './Header.scss'
 
 function Header() {
   return (
