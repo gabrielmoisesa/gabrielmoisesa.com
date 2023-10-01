@@ -5,7 +5,7 @@ import './Header.scss'
 function Header() {
   return (
     <header>
-      <Menu>
+      <Menu burgerBarClassName="fade-in">
         <a className="menu-item" href="/">
           Home
         </a>
@@ -16,7 +16,7 @@ function Header() {
           Contact
         </a>
       </Menu>
-      <img src={moonIcon} alt="Moon Icon" className='moon-icon' />
+      <img src={moonIcon} alt="Moon Icon" className='moon-icon fade-in' />
     </header>
   )
 }
