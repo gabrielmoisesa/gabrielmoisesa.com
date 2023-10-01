@@ -1,12 +1,20 @@
 header {
-  margin-bottom: 13vh;
+  display: flex;
+  height: 7rem;
 
   .bm-burger-button {
     position: fixed;
     width: 36px;
     height: 30px;
-    left: 36px;
+    left: 40px;
     top: 36px;
+  }
+
+  .moon-icon {
+    position: fixed;
+    width: 50px;
+    top: 25px;
+    right: 40px;
   }
   
   .bm-burger-bars {

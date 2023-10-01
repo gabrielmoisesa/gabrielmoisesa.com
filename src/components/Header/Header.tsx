@@ -1,4 +1,5 @@
 import { slide as Menu } from 'react-burger-menu'
+import moonIcon from '../../assets/icons/moon-svgrepo-com.svg'
 import './Header.scss'
 
 function Header() {
@@ -15,6 +16,7 @@ function Header() {
           Contact
         </a>
       </Menu>
+      <img src={moonIcon} alt="Moon Icon" className='moon-icon' />
     </header>
   )
 }
