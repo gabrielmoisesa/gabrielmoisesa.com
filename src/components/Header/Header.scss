@@ -9,7 +9,7 @@ header {
     left: 40px;
     top: 36px;
   }
-
+  
   .moon-icon {
     position: fixed;
     width: 50px;
@@ -21,6 +21,7 @@ header {
     background: var(--white);
     height: 11% !important;
     border-radius: 2px;
+    transition: 0.25s;
   }
   
   .bm-burger-bars-hover {
@@ -42,13 +43,13 @@ header {
   }
   
   .bm-menu {
-    background: gray;
+    background: var(--background-color);
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
   }
-  
+
   .bm-morph-shape {
-    fill: gray;
+    fill: var(--background-color);
   }
   
   .bm-item-list {
