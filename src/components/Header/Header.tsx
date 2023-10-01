@@ -1,4 +1,4 @@
-import { push as Menu } from 'react-burger-menu'
+import { push as Menu } from "react-burger-menu"
 import moonIcon from '../../assets/icons/moon-svgrepo-com.svg'
 import './Header.scss'
 
