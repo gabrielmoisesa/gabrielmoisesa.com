@@ -18,7 +18,7 @@ function HeroSection() {
         </div>
       </Fade>
       <Fade direction="up" delay={500}>
-        <p>Gabriel Moises Alves</p>
+        <p className="name-p">Gabriel Moises Alves</p>
       </Fade>
     </section>
   );
