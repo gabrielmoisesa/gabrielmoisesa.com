@@ -13,6 +13,7 @@
     "@emotion/react": "^11.11.1",
     "modern-normalize": "^2.0.0",
     "react": "^18.2.0",
+    "react-animated-cursor": "^2.10.1",
     "react-awesome-reveal": "^4.2.5",
     "react-burger-menu": "^3.0.9",
     "react-dom": "^18.2.0"
