@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 import './Burguer.scss'
-import MenuContext from '../../context/MenuContext'
+import MenuContext from '../../../context/MenuContext'
 
 function Burguer() {
   const toggleMenu = useContext(MenuContext).toggleMenu

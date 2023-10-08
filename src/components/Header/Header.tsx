@@ -1,6 +1,6 @@
 import moonIcon from "../../assets/icons/moon-svgrepo-com.svg";
-import Burguer from "../Burguer/Burguer";
-import Menu from "../Menu/Menu";
+import Burguer from "./Burguer/Burguer";
+import Menu from "./Menu/Menu";
 import "./Header.scss";
 
 function Header() {

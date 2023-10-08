@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import './Menu.scss'
-import MenuContext from '../../context/MenuContext';
+import MenuContext from '../../../context/MenuContext';
 
 function Menu() {
   const open = useContext(MenuContext).open
