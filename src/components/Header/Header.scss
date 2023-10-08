@@ -2,66 +2,10 @@ header {
   display: flex;
   height: 7rem;
 
-  .bm-burger-button {
-    position: fixed;
-    width: 36px;
-    height: 30px;
-    left: 40px;
-    top: 36px;
-  }
-  
   .moon-icon {
     position: fixed;
     width: 50px;
     top: 25px;
     right: 40px;
-  }
-  
-  .bm-burger-bars {
-    background: var(--white);
-    height: 11% !important;
-    border-radius: 2px;
-    transition: 0.25s;
-  }
-  
-  .bm-burger-bars-hover {
-    background: var(--purple);
-  }
-  
-  .bm-cross-button {
-    height: 24px;
-    width: 24px;
-  }
-  
-  .bm-cross {
-    background: var(--white);
-  }
-  
-  .bm-menu-wrap {
-    position: fixed;
-    height: 100%;
-  }
-  
-  .bm-menu {
-    background: var(--background-color);
-    padding: 2.5em 1.5em 0;
-    font-size: 1.15em;
-  }
-
-  .bm-morph-shape {
-    fill: var(--background-color);
-  }
-  
-  .bm-item-list {
-    color: #b8b7ad;
-    padding: 0.8em;
-  }
-  
-  .bm-item {
-    display: inline-block;
-  }
-  
-  .bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
   }
 }
