@@ -23,6 +23,11 @@
     transform-origin: 1px;
     border: none;
   }
+
+  &:hover {
+    span {
+      background: var(--purple);}
+  }
 }
 
 .cross-burguer {
