@@ -3,7 +3,7 @@ import './Burguer.scss'
 function Burguer() {
   return (
     <div>
-      <button className='burguer-button'>
+      <button className='burguer-button fade-in'>
         <span></span>
         <span></span>
         <span></span>
