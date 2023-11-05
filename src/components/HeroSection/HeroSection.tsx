@@ -5,7 +5,7 @@ function HeroSection() {
   return (
     <section className="hero">
       <Fade direction="up" delay={ 500 }>
-        <p>Front-End Developer / Full-stack student</p>
+        <p>Full-Stack Developer / Software Developer</p>
       </Fade>
       <Fade direction="up" delay={ 300 }>
         <div className="intro-phrase-container">
