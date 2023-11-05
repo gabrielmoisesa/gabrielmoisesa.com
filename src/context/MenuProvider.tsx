@@ -1,17 +1,17 @@
-import MenuContext from "./MenuContext"
-import { ChildrenProviderProps } from "../types"
-import { useState } from "react"
+import { useState } from 'react';
+import MenuContext from './MenuContext';
+import { ChildrenProviderProps } from '../types';
 
 function MenuProvider({ children }: ChildrenProviderProps) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
-  const toggleMenu = () => setOpen(!open)
+  const toggleMenu = () => setOpen(!open);
 
   return (
-    <MenuContext.Provider value={{ open: open, toggleMenu }}>
+    <MenuContext.Provider value={ { open, toggleMenu } }>
       {children}
     </MenuContext.Provider>
-  )
+  );
 }
 
-export default MenuProvider
+export default MenuProvider;

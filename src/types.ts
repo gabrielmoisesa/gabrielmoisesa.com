@@ -5,4 +5,4 @@ export type ChildrenProviderProps = {
 export type MenuContextType = {
   open: boolean;
   toggleMenu: () => void;
-}
+};
