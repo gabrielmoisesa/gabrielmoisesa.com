@@ -14,6 +14,9 @@ function CustomAnimatedCursor() {
       outerStyle={{
         border: "3px solid var(--white)",
       }}
+      clickables={[
+        ".moon-icon",
+      ]}
     />
   );
 }

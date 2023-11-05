@@ -1,3 +1,19 @@
-.moon-icon {
-  width: 50px;
+.moon-div {
+  height: fit-content;
+  width: fit-content;
+
+  :hover {
+    path {
+      fill: var(--purple);
+    }
+  }
+
+  .moon-icon {
+    width: 50px;
+    height: fit-content;
+  
+    path {
+      transition: all 0.3s linear;
+    }
+  }
 }
