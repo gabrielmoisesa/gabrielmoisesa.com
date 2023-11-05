@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import DOTS from 'vanta/dist/vanta.dots.min';
-import { ChildrenProviderProps } from '../types';
+import { ChildrenProviderProps } from '../../types';
 import './CustomAnimatedBackground.scss';
 
 function CustomAnimatedBackground({ children }: ChildrenProviderProps) {
