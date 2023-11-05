@@ -15,6 +15,17 @@ function CustomAnimatedCursor() {
         border: "3px solid var(--white)",
       }}
       clickables={[
+        'a', 
+        'input[type="text"]', 
+        'input[type="email"]', 
+        'input[type="number"]', 
+        'input[type="submit"]', 
+        'input[type="image"]', 
+        'label[for]', 
+        'select', 
+        'textarea', 
+        'button', 
+        '.link',
         ".moon-icon",
       ]}
     />
