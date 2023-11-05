@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import DOTS from 'vanta/dist/vanta.dots.min';
-import { ChildrenProviderProps } from '../../types';
+import { ChildrenProviderProps, VantaEffectType } from '../../types';
 import './CustomAnimatedBackground.scss';
 
 function CustomAnimatedBackground({ children }: ChildrenProviderProps) {
-  const [vantaEffect, setVantaEffect] = useState(null);
+  const [vantaEffect, setVantaEffect] = useState<VantaEffectType | null>(null);
   const myRef = useRef(null);
 
   useEffect(() => {
